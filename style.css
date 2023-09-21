@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --primary-color: #ab87ff;
+  --secondary-color: #814bff;
+  --hover-color: #ff25f8;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS PART FOR NAVBAR SECTION */
+
+nav {
+  text-align: center;
+  background-color: var(--secondary-color);
+  border-radius: 0 0 320px 320px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+ul {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  background-color: var(--hover-color);
+}
+
+/* CSS PART FOR TOP SECTION (INTRODUCTION SECTION) */
+
+.top {
+  width: 95%;
+  padding: 0;
+  margin: 3rem auto;
+  display: flex;
+}
+
+.home-image {
+  /* width: 50%; */
+  /* display: inline; */
+  border-radius: 60px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.landing-page {
+  margin: 0 36px;
+}
+h2 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+}
+#description {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.register-btn {
+  width: 300px;
+  height: 60px;
+  background-color: var(--secondary-color);
+  border-radius: 64px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+.register-btn:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 5%,
+    var(--hover-color) 100%
+  );
+  color: white;
+}
+.register-btn:active {
+  position: relative;
+  top: 1px;
+}
+button a {
+  text-decoration: none;
+}
+
+/* CSS PART FOR MIDDLE SECTION (FORM SECTION) */
+.middle {
+  background-color: white;
+  padding-bottom: 2em;
+  border-radius: 0 0 80px 80px;
+}
+
+#my-form {
+  width: 40%;
+  margin: 0 auto;
+  text-align: left;
+  display: grid;
+}
+
+.form-title {
+  text-align: center;
+  padding: 2rem 0 0 0;
+}
+label {
+  /* margin-top: 0.5rem; */
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: left;
+}
+
+input {
+  height: 2.5rem;
+}
+
+.form-label {
+  display: grid;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.form-label input {
+  background: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 4px solid #999;
+}
+
+.checked {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#status {
+  margin: 0;
+  width: 3rem;
+}
+
+.submit-btn {
+  margin: 2rem 0;
+  width: 100%;
+  height: 4rem;
+  font-size: 1.8rem;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 5%,
+    var(--hover-color) 100%
+  );
+  color: white;
+}
+
+.submit-btn:active {
+  position: relative;
+  top: 1px;
+}
+
+/* CSS PART FOR BOTTOM SECTION (FOOTER SECTION) */
+.bottom {
+  padding: 12px;
+  text-align: center;
+}
+
+.footer-logo {
+  vertical-align: middle;
+  width: 10%;
+  filter: grayscale(100%);
+}
+.footer-logo:hover {
+  filter: none;
+}
