@@ -1,3 +1,5 @@
+Name : Petra Bayu Pangestu
+Kelompok 3
 
 1.Website wajib memiliki navbar menggunakan elemen tag <nav></nav>. Sesuaikan konten, maupun pemilihan warna dengan kebutuhan kalian.
 
